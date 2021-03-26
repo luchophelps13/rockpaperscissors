@@ -1,0 +1,16 @@
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+#run{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+#choices{
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+}
