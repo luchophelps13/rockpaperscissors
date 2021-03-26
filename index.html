@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "static/styles/style.css">
+        <title>Rock Paper Scissors</title>
+        <h1 class = "center">RPS vs Machine</h1>
+    </head>
+
+    <body>
+        <div class = "center" id="scoreboard">
+            <h2 id = "result">Select A Move and See If You Can Beat The Computer</h2>
+            <h3 id = "score"></h3>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="center">
+            <button id="run" onclick = "decideWinner()">PLAY!</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class = "center">
+            <button onclick="rock()"><img id = "choices" src = "C:\Users\luchc\PROGRAMMING\Javascript\Rock Paper Scissors\static\images\rock.jpg" alt = "rock"></button>
+            <button onclick = "paper()"><img id = "choices" src = "C:\Users\luchc\PROGRAMMING\Javascript\Rock Paper Scissors\static\images\paper.jpg" alt = "paper"></button>
+            <button onclick = "scissors()"><img id = "choices" src = "C:\Users\luchc\PROGRAMMING\Javascript\Rock Paper Scissors\static\images\scissors.jpg" alt = "scissors"></button>
+        </div>
+
+        <script src = "static/scripts/script.js"></script>
+    </body>
+</html>
