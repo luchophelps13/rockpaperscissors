@@ -5,9 +5,9 @@ let compChoice = "";
 let userChoice = "";
 let score = [0, 0];
 let result = "";
-let moves = ["rock", "paper", "scissors"];
-let resultLabel = document.getElementById("result"); 
-let scoreboard = document.getElementById("score");
+const moves = ["rock", "paper", "scissors"];
+const resultLabel = document.getElementById("result"); 
+const scoreboard = document.getElementById("score");
 
 function genComputerMove(){
     compChoice = moves[Math.floor(Math.random() * moves.length)];
